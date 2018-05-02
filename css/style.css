@@ -38,6 +38,10 @@ body {
         float: none;
         clear: both;
     }
+    a.menu-logo {
+        margin-left: 45%;
+        margin-right: 0;
+    }
 }
 
 /* Introdução */
@@ -142,6 +146,7 @@ body {
 @media (max-width: 739px){
     .chamadaeform {
         max-width: 300px;
+        margin: 0 auto;
     }
     
     .chamada {
@@ -150,11 +155,12 @@ body {
     
     .chamada h1{
         font-size: 3em;
-        width: 320px;
+        width: 300px;
         text-align: center;
     }
     
     .chamada p {
+        width: 300px;
         font-size: 2em;
         text-align: center;
     }
@@ -164,11 +170,18 @@ body {
     }
     
     .form {
-        width: 340px;
+        width: 300px;
+        margin: 0 auto;
     }
     
-    .input {
-        width: 30px;
+    .form input {
+        width: 250px;
+        margin: 0 auto;
+    }
+    
+     .form button {
+        width: 275px;
+        margin: 10px auto;
     }
    
 }
@@ -391,6 +404,7 @@ body {
     
     .footer-item-texto {
         float: none;
+        width: 300px;
         margin: 0px;
     }
     
