@@ -1,0 +1,404 @@
+/* Reset */
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+}
+
+body {
+    font-family: ubuntu, serif;
+    color: #232a32;
+}
+
+/* Menu */
+
+.menu {
+    background: #232a32;
+    padding: 20px 0;
+}
+
+.menu-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu-container::after, .menu-container::before {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.menu-logo {
+    display: block;
+    float:left;
+    margin-left: 45%;
+    margin-right: 0;
+}
+
+@media (max-width:739px) {
+    .menu-logo {
+        float: none;
+        clear: both;
+    }
+}
+
+/* Introdução */
+
+.intro {
+    background: url('../imagens/background-header.jpg') no-repeat center center;
+    background-size:cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 150px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.chamada h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: left;
+}
+
+.chamada p {
+    font-size: 3.125em;
+    text-align: left;
+}
+
+.chamada {
+    width: 460px;
+    float: left;
+    margin: 40px 10px;
+}
+
+.chamadaeform {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.chamadaeform::after, .chamadaeform::before {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.form {
+    width: 460px;
+    float: left;
+    margin: 0 05px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.form h3 {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.form p {
+    font-size: 1.05em;
+    text-align: center;
+}
+
+.form input {
+    width: 300px;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+    font-family: ubuntu, serif;
+    padding: 10px;
+}
+
+.form button{
+    background: #2c4b95;
+    font-family: ubuntu, serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.25em;
+    width: 325px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width:740px) and (max-width: 980px) {
+    .chamadaeform {
+        max-width: 720px;
+    }
+    .chamada {
+        width: 350px;
+    }
+    .form {
+        width: 340px;
+        margin: 10px 0;
+    }
+    
+    .chamada h1 {
+    font-size: 3em;
+    }
+    
+    .chamada p {
+    font-size: 2em;
+    }
+}
+
+@media (max-width: 739px){
+    .chamadaeform {
+        max-width: 300px;
+    }
+    
+    .chamada {
+        width: 300px;
+    }
+    
+    .chamada h1{
+        font-size: 3em;
+        width: 320px;
+        text-align: center;
+    }
+    
+    .chamada p {
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .chamada p {
+    font-size: 2em;
+    }
+    
+    .form {
+        width: 340px;
+    }
+    
+    .input {
+        width: 30px;
+    }
+   
+}
+
+/* O Seguro */
+
+.seguro {
+    padding: 50px 0;
+}
+
+.seguro h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+    color: #2c4b95;
+}
+
+.seguro-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.seguro-container::before, .seguro-container::after {
+    content:'';
+    display: table;
+    clear:both;
+}
+
+.seguro-item {
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px 10px;
+}
+
+.seguro-item h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.seguro-item p {
+    font-size: 0.875em;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.seguro-item img {
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px 10px;
+}
+
+@media (min-width:740px) and (max-width: 980px) {
+    .seguro-container {
+        max-width: 720px;
+    }
+    .seguro-item {
+        width: 220px;
+    }
+    .seguro-item img {
+        width: 220px;
+    }
+}
+
+@media (max-width: 739px){
+    .seguro-container {
+        max-width: 300px;
+    }
+    .seguro-item {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+/*Copa do Mundo*/
+
+.copa {
+    background: #232a32;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.copa-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.copa-container::after, .copa-containers::before {
+    content:'';
+    display: table;
+    clear:both;
+}
+
+.copa-item {
+    width: 450px;
+    float: left;
+    margin: 0 20px 20px 10px;
+}
+
+.copa-item img {
+    width: 450px;
+    display: block;
+    float: left;
+    margin: 0 20px 20px 10px;
+}
+
+.copa-item h2{
+    max-width: 460px;
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 80px;
+    color: #ffff;
+    margin: 0 auto;
+}
+
+.copa-item p {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.em;
+    max-width: 400px;
+    color: #fff;
+    margin: 30px auto;
+}
+
+.copa-item a {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    background: #2c4b95;
+    color: #fff;
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+    .copa-container {
+      max-width: 720px;  
+    }
+    .copa-item {
+        width: 330px;
+    }
+    .copa-item img {
+        width: 330px;
+    }
+}
+
+@media (max-width: 739px){
+    .copa-container {
+        max-width: 300px;
+    }
+    .copa-item {
+        width: 300px;
+        margin: 10px 0;
+    }
+    .copa-item img {
+        width: 300px;
+        margin: 10px 0;
+    }
+}
+
+/*Footer*/
+
+.footer{
+    padding: 30px 0;   
+}
+
+.footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-container::after, .footer-container::before {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.footer-item-imagem {
+    width: 460px;
+    margin: 20px 20px;
+    float: left;
+}
+
+.footer-item-texto h3 {
+    font-size: 1.5em;
+    color: #2c4b95;
+}
+
+.footer-item-texto p {
+    line-height: 1.4em;
+    margin: 0 05px;
+    font-size: 1.25em;
+}
+
+.footer-item-texto {
+    width: 460px;
+    float: right;
+}
+
+@media (min-width:740px) and (max-width: 980px) {
+    .footer-container {
+        max-width: 720px;
+    }
+    .footer-item-texto {
+        width: 380px;
+        
+    }
+    .footer-item-imagem {
+        width: 300px;
+    }
+}
+
+@media (max-width: 739px){
+    .footer-container {
+        max-width: 300px;
+    }
+    
+    .footer-item-texto {
+        float: none;
+        margin: 0px;
+    }
+    
+    .footer-item-imagem {
+        float: none;
+        width: 300px;
+        margin: 10px 0;
+    }
+}
+
+
