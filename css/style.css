@@ -28,19 +28,14 @@ body {
 
 .menu-logo {
     display: block;
-    float:left;
-    margin-left: 45%;
-    margin-right: 0;
+    margin: 0 auto;
+    width: 124px;
 }
 
 @media (max-width:739px) {
     .menu-logo {
         float: none;
         clear: both;
-    }
-    a.menu-logo {
-        margin-left: 45%;
-        margin-right: 0;
     }
 }
 
@@ -405,13 +400,13 @@ body {
     .footer-item-texto {
         float: none;
         width: 300px;
-        margin: 0px;
+        text-align: center;
     }
     
     .footer-item-imagem {
         float: none;
-        width: 300px;
-        margin: 10px 0;
+        width: 145px;
+        margin: 0 auto;
     }
 }
 
